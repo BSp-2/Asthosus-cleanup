@@ -7,7 +7,7 @@ mesh: [
     type: NoiseMesh
     planet: asthosus
     divisions: 5
-    seed: 7
+    seed: 228
     radius: 1.229
     color1: 587d89
     color2: 5e95a8
@@ -20,36 +20,37 @@ mesh: [
     planet: asthosus
     divisions: 5
     radius: 1.22
-    seed: 94
+    seed: 228
     color1: e9e9de
     color2: c2c1b4
     octaves: 3.7
     persistence: 0.6
-  }
-  {
-    //sand
-    type: NoiseMesh
-    planet: asthosus
-    divisions: 6
-    seed: 101
-    radius: 1.2441
-    color1: babca8
-    color2: c6c282
-    octaves: 5.1
-    persistence: 0.8
+    mag: 1
   }
   {
     //demetite
     type: NoiseMesh
     planet: asthosus
-    seed: 69
+    seed: 228
     divisions: 5
     color1: d5c995
     color2: 666359
     radius: 1.212
     octaves: 4
     persistence: 1
-    scale: 0.75
+    mag: 1.2
+  } 
+  {
+    //sand
+    type: NoiseMesh
+    planet: asthosus
+    divisions: 6
+    seed: 228
+    radius: 1.2441
+    color1: babca8
+    color2: c6c282
+    octaves: 5.1
+    persistence: 0.8
     mag: 1
   }
   {
@@ -80,7 +81,7 @@ mesh: [
     //red sand
     type: NoiseMesh
     planet: asthosus
-    divisions: 6
+    division: 6
     seed: 17
     radius: 1.2514
     color1: dea67d
